@@ -1,0 +1,4 @@
+main - Basic layout - no functionality (has buttons and setup but does not have )
+nov 7 - can take player count and over count, automatically opening batting screen and can update the score according to the buttons
+ - does not have end / swap conditions 
+ - also rewritten as class to allow for easier attribution and calling for team 2 later on

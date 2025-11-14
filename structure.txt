@@ -1,0 +1,32 @@
+
+Init main Tkinter window for setup (make into a function OR def _init for a class)
+ 
+Ask input for the total overs and players (first use a predermined default, then ask for input since games will vary)
+
+On start match, store the values (tk.fetch the values? store into a local var?)
+
+Create a class /. function to hold the classses (with runs / overs / balls /wicket attributes that are global and can be updated)
+    - if making a class give bowl, add score, wicket, end game, compare functions
+    - also make them identical layout
+
+keep two "Team" objects — team1, team2 and keep track of their scores individually
+
+Create a secondary function (better function here) to handle final score checking, when to swap the half etc.. (rr and rrr?)
+
+Display team name (also ask for name at the strt), score, wickets, overs. (rr and rrr? need to ask the handler function for scores, if class it will coincide with logic)
+
+layout
+ - Buttons for 0-6 runs (5 for simplicity ig), wicket and upda
+ - each click calls the objects update function
+ -update stats (balls overs etc...)
+
+END / SWITCH CASES
+ - current ball count = total bal count
+ -wicket = total wickets possible (should be players minus 1)
+
+If inning for team 1 ends, switch to team 2 (function of class or standalone?)
+
+after both innings finish display final results,s core of both teams and then the final result of the math
+
+terminate when closing the sumary screen
+- possible add a way to strip score values / dowload a over by over breakdown in .txt format? (keep each over as attributes of object as lists with lenght 6 with number for each ball or wicket in case of
